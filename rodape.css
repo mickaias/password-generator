@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@800&family=Poppins:wght@300;400;600;700&display=swap');
+
+footer{
+    width: 100%;
+    padding: 60px 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.redes-sociais{
+    margin-top: 30px;
+}
+
+.redes-sociais a {
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+    width: 40px;
+    margin: 0 10px 10px 0;
+    text-decoration: none;
+    border-radius: 60%;
+    color: white;
+    transition:  all 0.5 ease;
+    border: 1px solid white;
+
+}
+
+footer .redes-sociais a i{
+    font-size: 30px;
+
+}
+
+footer .redes-sociais a:hover{
+    color: #181818;
+    background-color: white;
+}
+
+footer h3 {
+    display: flex;
+    align-items: center;
+}
